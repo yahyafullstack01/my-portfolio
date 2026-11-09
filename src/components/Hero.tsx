@@ -41,11 +41,13 @@ const socials = [
 ];
 
 const techBadges = [
-  { label: "Next.js", className: "left-[-8%] top-[8%]", delay: 0 },
-  { label: "SEO", className: "right-[4%] top-[-6%]", delay: 0.3 },
-  { label: "React", className: "right-[-10%] top-[22%]", delay: 0.6 },
-  { label: "Node.js", className: "left-[-12%] bottom-[18%]", delay: 1.2 },
-  { label: "MongoDB", className: "right-[-6%] bottom-[6%]", delay: 1.8 },
+  { label: "Next.js", className: "left-[-12%] top-[4%]", delay: 0 },
+  { label: "Google Ads", className: "left-[14%] top-[-10%]", delay: 0.2 },
+  { label: "SEO", className: "right-[8%] top-[-10%]", delay: 0.4 },
+  { label: "React", className: "right-[-14%] top-[20%]", delay: 0.6 },
+  { label: "MongoDB", className: "right-[-10%] bottom-[16%]", delay: 0.9 },
+  { label: "Mobile App", className: "right-[6%] bottom-[-10%]", delay: 1.2 },
+  { label: "Node.js", className: "left-[-10%] bottom-[2%]", delay: 1.5 },
 ];
 
 export function Hero() {
