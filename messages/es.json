@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Yahya Alloucha",
+    "title": "Desarrollador Full-Stack",
+    "subtitle": "Construyo aplicaciones web listas para producción con Next.js, React, Node.js y MongoDB, desde plataformas inmobiliarias hasta e-commerce, finanzas y productos multilingües.",
+    "cta": "Ver Mi Trabajo",
+    "contact": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "body": "Desarrollador Full-Stack con base en Bélgica, construyo aplicaciones listas para producción con Next.js, React, Node.js y MongoDB. Experiencia en desarrollo de UI responsiva, servicios backend, APIs REST, diseño de bases de datos, integraciones de terceros y despliegue. He entregado proyectos en bienes raíces, viajes, e-commerce, fotografía, tecnología y finanzas, incluyendo plataformas multilingües para usuarios internacionales.",
+    "yearsLabel": "Años de Experiencia",
+    "projectsLabel": "Proyectos Entregados",
+    "clientsLabel": "Idiomas Hablados"
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "subtitle": "Herramientas que uso para dar vida a las ideas"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de mi trabajo reciente",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "items": {
+      "one": {
+        "title": "Los Estate — Plataforma Inmobiliaria",
+        "description": "Plataforma inmobiliaria full-stack con componentes reutilizables, servicios backend y persistencia en MongoDB. Listado de propiedades, ventas/alquileres, flujos de datos vía API y funcionalidad multilingüe."
+      },
+      "two": {
+        "title": "Vibra Travel — Plataforma de Viajes",
+        "description": "Plataforma comercial de viajes con destinos, itinerarios, testimonios y promociones, backend en Node.js y datos respaldados por MongoDB, además de integraciones de reservas."
+      },
+      "three": {
+        "title": "Latore Atelier — E-Commerce de Moda",
+        "description": "Catálogo de productos e interfaces de compra con arquitectura full-stack Next.js/Node.js, datos de producto en MongoDB y experiencias responsivas multilingües."
+      },
+      "four": {
+        "title": "Pic Best Moments — Plataforma de Fotografía",
+        "description": "Plataforma comercial de fotografía con galerías responsivas, interfaces centradas en imágenes, servicios backend y páginas multilingües para clientes."
+      },
+      "six": {
+        "title": "GRW Wine",
+        "description": "Plataforma web comercial full-stack que combina frontend responsivo, servicios backend y funcionalidad de base de datos."
+      },
+      "seven": {
+        "title": "Mejor Tech",
+        "description": "Plataforma tecnológica multilingüe que soporta inglés, árabe, ruso y español, construida con un sistema de base de datos distinto de MongoDB."
+      }
+    }
+  },
+  "contact": {
+    "title": "Trabajemos Juntos",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos de ello.",
+    "nameLabel": "Tu Nombre",
+    "emailLabel": "Tu Correo",
+    "messageLabel": "Mensaje",
+    "send": "Enviar Mensaje",
+    "success": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "Algo salió mal. Por favor, escríbeme directamente.",
+    "emailMe": "Envíame un Correo",
+    "location": "Ubicado en",
+    "locationValue": "Bélgica, España"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

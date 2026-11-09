@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Yahya Alloucha",
+    "title": "Full-Stack Web Developer",
+    "subtitle": "I build production-ready web applications with Next.js, React, Node.js and MongoDB — from real estate platforms to e-commerce, finance and multilingual products.",
+    "cta": "View My Work",
+    "contact": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "body": "Full-Stack Web Developer based in Belgium, building production-ready applications with Next.js, React, Node.js and MongoDB. Experienced across responsive UI development, backend services, REST APIs, database design, third-party integrations and deployment. I've delivered projects for real estate, travel, e-commerce, photography, technology and finance, including multilingual platforms for international users.",
+    "yearsLabel": "Years Experience",
+    "projectsLabel": "Projects Delivered",
+    "clientsLabel": "Languages Spoken"
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "Tools I use to bring ideas to life"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my recent work",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": {
+      "one": {
+        "title": "Los Estate — Real Estate Platform",
+        "description": "Full-stack property platform with reusable components, backend services and MongoDB persistence. Property listing, sales/rental experiences, API-driven data flows and multilingual functionality."
+      },
+      "two": {
+        "title": "Vibra Travel — Travel Platform",
+        "description": "Commercial travel platform with destination, trip, testimonial and promotional experiences, Node.js backend and MongoDB-backed data flows, plus booking-related integrations."
+      },
+      "three": {
+        "title": "Latore Atelier — Fashion E-Commerce",
+        "description": "Product catalogue and shopping interfaces with a full-stack Next.js/Node.js architecture, MongoDB product data and multilingual responsive experiences."
+      },
+      "four": {
+        "title": "Pic Best Moments — Photography Platform",
+        "description": "Commercial photography platform with responsive galleries, image-focused interfaces, backend services and multilingual customer-facing pages."
+      },
+      "six": {
+        "title": "GRW Wine",
+        "description": "Commercial full-stack web platform combining a responsive frontend, backend services and database functionality."
+      },
+      "seven": {
+        "title": "Mejor Tech",
+        "description": "Multilingual technology platform supporting English, Arabic, Russian and Spanish, built with a non-MongoDB database system."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's talk about it.",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Message",
+    "send": "Send Message",
+    "success": "Message sent! I'll get back to you soon.",
+    "error": "Something went wrong. Please email me directly.",
+    "emailMe": "Email Me",
+    "location": "Based in",
+    "locationValue": "Belgium, Spain"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
