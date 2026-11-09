@@ -54,7 +54,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden px-6 pt-28 pb-16"
+      className="relative flex min-h-screen items-center overflow-hidden px-4 pt-24 pb-16 sm:px-6 sm:pt-28"
     >
       <div className="absolute inset-0 -z-20 grid-texture" />
       <div
@@ -82,7 +82,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
+            className="text-4xl font-bold tracking-tight break-words sm:text-6xl lg:text-7xl"
           >
             <span className="gradient-text">{t("name")}</span>
           </motion.h1>

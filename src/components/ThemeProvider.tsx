@@ -6,7 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
-  useState,
+  useSyncExternalStore,
   type ReactNode,
 } from "react";
 
@@ -21,19 +21,37 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 export const THEME_STORAGE_KEY = "theme";
 
-function readStoredTheme(): Theme {
-  if (typeof window === "undefined") return "dark";
+const listeners = new Set<() => void>();
+
+function emit() {
+  listeners.forEach((listener) => listener());
+}
+
+function subscribe(listener: () => void) {
+  listeners.add(listener);
+  window.addEventListener("storage", listener);
+  return () => {
+    listeners.delete(listener);
+    window.removeEventListener("storage", listener);
+  };
+}
+
+function readTheme(): Theme {
   const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
   return stored === "light" || stored === "dark" ? stored : "dark";
 }
 
+function getServerSnapshot(): Theme {
+  return "dark";
+}
+
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>(readStoredTheme);
+  const theme = useSyncExternalStore(subscribe, readTheme, getServerSnapshot);
 
   const setTheme = useCallback((next: Theme) => {
-    setThemeState(next);
     window.localStorage.setItem(THEME_STORAGE_KEY, next);
     document.documentElement.classList.toggle("light", next === "light");
+    emit();
   }, []);
 
   useEffect(() => {

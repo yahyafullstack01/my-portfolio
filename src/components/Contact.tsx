@@ -38,7 +38,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="relative mx-auto max-w-5xl overflow-hidden px-6 py-28">
+    <section id="contact" className="relative mx-auto max-w-5xl overflow-hidden px-4 py-20 sm:px-6 sm:py-28">
       <div
         className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[420px] w-[420px] -translate-x-1/2 rounded-full opacity-25 blur-3xl"
         style={{ background: "radial-gradient(circle, var(--accent), transparent 70%)" }}
@@ -61,7 +61,7 @@ export function Contact() {
               "linear-gradient(135deg, var(--accent), transparent 40%, transparent 60%, var(--accent-2))",
           }}
         />
-        <div className="grid grid-cols-1 gap-10 rounded-[1.9rem] bg-background/90 p-8 sm:grid-cols-5 sm:p-10">
+        <div className="grid grid-cols-1 gap-10 rounded-[1.9rem] bg-background/90 p-5 sm:grid-cols-5 sm:p-10">
           <FadeIn delay={0.15} className="sm:col-span-2">
             <div className="flex flex-col gap-6">
               <motion.a
@@ -74,7 +74,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-muted">{t("emailMe")}</div>
-                  <div className="font-medium">{CONTACT_EMAIL}</div>
+                  <div className="break-all font-medium">{CONTACT_EMAIL}</div>
                 </div>
               </motion.a>
               <motion.div
